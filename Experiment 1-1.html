@@ -1,75 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="prostyle.css">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            font-family: sans-serif;
+        }
+    </style>
 </head>
-<body>
-<section>
-<div class="contianer">
+<body style="background-image: linear-gradient(
+    to bottom right,
+    rgba(135, 135, 37, 0.7),
+    rgba(17, 139, 33, 1)
+  );">
+    <center>
+    <h1>Profile</h1>
+    <img src="..\assets\girl.jpg">
+    <table style="text-align: center;">
+        <tr>
+            <td>Name:</td>
+            <td>Pushkar</td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Hobby:</td>
+            <td>Playing cricket,Coding</td>
+        </tr>
+        <tr>
+            <td>Profession</td>
+            <td>IT student</td>
+        </tr>
+        <tr>
+            <td>Skills:</td>
+            <td>Java,Python,Flask</td>
+        </tr>
+    </table>
+    <audio controls src="../assets/Blackbird.mp3">
+        Maybe Browser doesnt support audio !!!! Sorry
+    </audio>
     <div>
-    <div class="cover">
-
+        <video controls src="../assets/shuttle.mp4">
+            Maybe Browser doesnt support video !!!! Sorry
+        </video>
     </div>
-    <div class="container1">
-        <div class="greet">
-            <h1>Hello,Pushkar</h1>
-            <br>
-            <h5>This is your profile page. Here you can see the details you provided us</h5>
-        </div>
-    </div>
-    </div>
-
-    <div class="back">
-
-    </div>
-    <div class="profile">
-        <div class="sec">
-            <div class="image">
-
-            </div>
-
-        </div>
-        <div class="title">
-            <label>Your Profile</label>
-        </div>
-        <div class="set">
-            <div class="info">
-                <span>
-                    <label>Name:</label>
-                    <label style="color:white">Pushkar</label>
-                </span>
-            </div>
-            <div class="info">
-                    <label >Age:</label>
-                    <div id="a" name="age">
-                        20
-                    </div>
-            </div>
-            <div class="info">
-                <label>Hobby:</label>
-                <div id="a">
-                    Playing Cricket,Coding
-                </div>
-            </div>
-            <div class="info">
-                <label>Skills:</label>
-                <div id="a">
-                    Java,Python,Flask
-                </div>
-            </div>
-        </div>
-    </div>
-</div>  
-</section>
-</body>
+    </center>
 </body>
 </html>
